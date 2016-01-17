@@ -14,4 +14,4 @@ wait = Selenium::WebDriver::Wait.new(:timeout => 10)
 wait.until { driver.title.downcase.start_with? "cheese!" }
 
 puts "Page title is #{driver.title}"
-driver.quit
+driver.quit 
